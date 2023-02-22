@@ -1,0 +1,111 @@
+:root {
+  --primaryColor: #ff1ea1;
+  --SecondaryColor: #ff6ac1;
+  --gradientColor: linear-gradient(#ffb0de, #ce0178);
+  --whiteColor: #ffffff;
+  --blackColor: #292929;
+  --textColor: #757575;
+  --whiteColorDream: #e2e2e2;
+  --greyText: #adadad;
+  --inputColor: #fff4f4;
+  --bodyColor: #fffefe;
+  --cardBG: #fff9f9;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--whiteColorDream);
+  width: 100%;
+  padding: 1rem;
+  z-index: 2000;
+  box-shadow: 0 2px 4px #696969;
+
+  .logo {
+    color: var(--blackColor);
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      font-size: 30px;
+      color: var(--primaryColor);
+      margin-right: 5px;
+      transform: translateY(5px);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navBar {
+      position: absolute;
+      background: var(--whiteColorDream);
+      height: max-content;
+      width: 80%;
+      border-radius: 1rem;
+      top: -500rem;
+      left: 50%;
+      padding: 1rem;
+      transform: translate(-50%);
+      z-index: 2000;
+      box-shadow: 0 2px 4px #696969;
+      transition: 0.5s ease-in;
+
+      .navLists {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        padding: 0.5rem 0;
+
+        .navItem {
+          padding: 0.5rem 0;
+
+          .navLink {
+            color: var(--textColor);
+            font-size: 0.9rem;
+            font-weight: 600;
+            &:hover {
+              color: var(--primaryColor);
+            }
+          }
+        }
+
+        .btn {
+          margin-top: 1rem;
+
+          a {
+            font-weight: 600;
+            color: var(--whiteColor);
+          }
+        }
+      }
+
+      .closeNavBar {
+        position: absolute;
+        top: 20px;
+        right: 1.5rem;
+        color: var(--primaryColor);
+        &:hover {
+          color: var(--SecondaryColor);
+        }
+      }
+    }
+
+    .activeNavbar {
+      top: 7rem;
+    }
+  }
+
+  .toggleNavbar {
+    .icon {
+      font-size: 25px;
+      color: var(--primaryColor);
+    }
+    &:hover.icon {
+      color: var(--SecondaryColor);
+    }
+  }
+}
