@@ -7,6 +7,10 @@ import img2 from "../../Assets/img(2).jpg";
 import img3 from "../../Assets/img(3).jpg";
 import img4 from "../../Assets/img(4).jpg";
 import img5 from "../../Assets/img(5).jpg";
+import img6 from "../../Assets/img(6).jpg";
+import img7 from "../../Assets/img(7).jpg";
+import img8 from "../../Assets/img(8).jpg";
+import img9 from "../../Assets/img(9).jpg";
 
 //import icons
 
@@ -35,29 +39,29 @@ const Data = [
     grade: "Cultural Relax",
     fees: "$350",
     description:
-      "The epitone of romance,Bora Bora is one of the best travel destinations in the world.",
+      "A peace and clearmindset visit , doesnt feel time going so fast.",
   },
 
   {
     id: 3,
     imgSrc: img3,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
-    grade: "Cultural Relax",
-    fees: "$700",
+    destTitle: "Seoul",
+    location: "South Korea",
+    grade: "Urban culture",
+    fees: "$350",
     description:
-      "The epitone of romance,Bora Bora is one of the best travel destinations in the world.",
+      "Riverside walk , and have a good morning environment.",
   },
 
   {
     id: 4,
     imgSrc: img4,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
-    grade: "Cultural Relax",
-    fees: "$700",
+    destTitle: "Kuala Lumpur",
+    location: "Malaysia",
+    grade: "Urban culture",
+    fees: "$150",
     description:
-      "The epitone of romance,Bora Bora is one of the best travel destinations in the world.",
+      "The relax and chill view.",
   },
 
   {
@@ -70,46 +74,46 @@ const Data = [
     description: "The best skycraper view infront of your eyes.",
   },
 
-  // {
-  //   id:6,
-  //   ingSrc: img,
-  //   destTitle: 'Bora Bora',
-  //   location:'New Zealand',
-  //   grade:'Cultural Relax',
-  //   fees:'$700',
-  //   description:'The epitone of romance,Bora Bora is one of the best travel destinations in the world.'
+  {
+    id:6,
+    imgSrc: img6,
+    destTitle: 'Singapore',
+    location:'Singapore',
+    grade:'Urban culture',
+    fees:'$250',
+    description:'The complex city with all u need , and modern fashion.'
 
-  // },
-  // {
-  //   id:7,
-  //   ingSrc: img,
-  //   destTitle: 'Bora Bora',
-  //   location:'New Zealand',
-  //   grade:'Cultural Relax',
-  //   fees:'$700',
-  //   description:'The epitone of romance,Bora Bora is one of the best travel destinations in the world.'
-  // },
+  },
+  {
+    id:7,
+    imgSrc: img7,
+    destTitle: 'Kashmir',
+    location:'Pakistan',
+    grade:'Cultural Relax',
+    fees:'$500',
+    description:'The relax and peaceful place to sit and vacation with a nature environment.'
+  },
 
-  // {
-  //   id:8,
-  //   ingSrc: img,
-  //   destTitle: 'Bora Bora',
-  //   location:'New Zealand',
-  //   grade:'Cultural Relax',
-  //   fees:'$700',
-  //   description:'The epitone of romance,Bora Bora is one of the best travel destinations in the world.'
+  {
+    id:8,
+    imgSrc: img8,
+    destTitle: 'Bali',
+    location:'Indonesia',
+    grade:'Cultural Relax',
+    fees:'$199',
+    description:'The historic place to walk and visit with a peaceful nature environment'
 
-  // },
+  },
 
-  // {
-  //   id:9,
-  //   ingSrc: img,
-  //   destTitle: 'Bora Bora',
-  //   location:'New Zealand',
-  //   grade:'Cultural Relax',
-  //   fees:'$700',
-  //   descript
-  // }
+  {
+    id:9,
+    imgSrc: img9,
+    destTitle: 'Krabi',
+    location:'Thailand',
+    grade:'Cultural Relax',
+    fees:'$250',
+    description:'Clear water, peace environment and fun place to visit.'
+  }
 ];
 
 export const Main = () => {
